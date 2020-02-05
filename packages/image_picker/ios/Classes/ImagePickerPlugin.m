@@ -178,10 +178,9 @@ static const int SOURCE_GALLERY = 1;
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
   [_imagePickerController dismissViewControllerAnimated:YES completion:nil];
-  _result(nil);
-
-  _result = nil;
-  _arguments = nil;
+//  _result(nil);
+//  _result = nil;
+//  _arguments = nil;
 }
 
 // The way we save images to the tmp dir currently throws away all EXIF data
